@@ -1,0 +1,18 @@
+marks = []
+
+m1 = int(input("Enter marks of subject 1: "))
+marks.append(m1)
+m2 = int(input("Enter marks of subject 2: "))
+marks.append(m2)
+m3 = int(input("Enter marks of subject 3: "))
+marks.append(m3)
+m4 = int(input("Enter marks of subject 4: "))
+marks.append(m4)
+m5 = int(input("Enter marks of subject 5: "))
+marks.append(m5)
+m6 = int(input("Enter marks of subject 6: "))
+marks.append(m6)
+m7 = int(input("Enter marks of subject 7: "))
+marks.append(m7)
+marks.sort()
+print(marks)
